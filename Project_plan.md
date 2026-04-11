@@ -89,7 +89,7 @@
 
 
 * **About me page:**
-1. Navbar (ίδιο με home)
+1\. Navbar (ίδιο με home)
 
 
 
@@ -129,7 +129,7 @@
 
 
 
-2\.Main card:
+2\. Main card:
 
 &#x20;  - Grid layout (3-4 στήλες)
 
@@ -142,12 +142,11 @@
 
 
 * **Booking page:**
-
-1.Nav bar(back arrow)
-
+1. Nav bar(back arrow)
 
 
-2\.Main card:
+
+2\. Main card:
 
 &#x09;-Left:
 
@@ -161,19 +160,18 @@
 
 
 
-3\.Bottom right:
+3\. Bottom right:
 
 &#x09;-Button "συνεχεια"
 
 
 
 * **Booking Form:**
-
-1.Nav bar(back arrow)
-
+1. Nav bar(back arrow)
 
 
-2.Main card:	
+
+2\. Main card:
 
 &#x09;- Όνομα
 
@@ -186,18 +184,15 @@
 
 
 * **Confirmation page:**
-
-1.Nav bar(Home button)
-
+1. Nav bar(Home button)
 
 
-2\.Main card:
+
+2\. Main card:
 
 &#x09;-Title: "Το ραντεβου ηταν " + επιτυχης ή ανεπιτυχης(check icon or cross icon)
 
 &#x09;-Details
 
-3\.Home Button
-
-
+3\. Home Button
 

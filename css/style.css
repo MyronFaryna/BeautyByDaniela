@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 40px 20px;
 }
 
 /* Main white card */
@@ -20,17 +21,17 @@ body {
     background: white;
     width: 90%;
     max-width: 1200px;
-    padding: 40px;
+    padding: 48px 36px 36px;
     border-radius: 20px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.68);
 }
 
 /* Navbar */
 .navbar {
     position: absolute;
-    top: 30px;
+    top: 28px;
     width: 80%;
     max-width: 1200px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +53,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: black;
+    font-size: 0.95rem;
 }
 
 /* Hero section */
@@ -68,14 +70,18 @@ body {
 }
 
 .hero-text h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.05;
+    margin-bottom: 22px;
+    max-width: 520px;
 }
 
 .hero-text p {
     margin-bottom: 20px;
-    max-width: 500px;
+    max-width: 430px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
 }
 
 /* Hero image */
@@ -83,6 +89,15 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.hero-image::before {
+    content: "";
+    width: 280px;
+    height: 280px;
+    background: #f2dede;
+    border-radius: 50%;
 }
 
 .hero-image img {
@@ -93,17 +108,27 @@ body {
 /* Button */
 .btn-primary {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 28px;
     background: #e8bcbc;
     color: black;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 10px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: #ddb0b0;
 }
 
 /* Services section */
 .services {
-    margin-top: 60px;
+    margin-top: 70px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .services-grid {
@@ -115,7 +140,12 @@ body {
 /* Service cards */
 .service-card {
     flex: 1;
-    padding: 20px;
-    border-radius: 12px;
-    background: #fafafa;
+    padding: 22px 18px;
+    border-radius: 14px;
+    background: #faf7f7
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
 }

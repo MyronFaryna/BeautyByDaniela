@@ -21,6 +21,7 @@ body {
     background: white;
     width: 90%;
     max-width: 1200px;
+    min-height: 00px;
     padding: 48px 36px 36px;
     border-radius: 20px;
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
@@ -152,11 +153,10 @@ body {
 
 /* About section - two columns*/
 .about-section {
+    position: relative;
     display: flex;
     justify-content: space-between;
     gap: 60px;
-
-   
 }
 /* Each column stacks its own photo/heading/text with even spacing */
 .about-column {
@@ -187,4 +187,19 @@ body {
  
 .about-column:last-child .hero-image {
     justify-content: flex-end;
+}
+
+.right{
+    text-align: right;
+    align-items: flex-end;
+    }
+.section-divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.5;
 }
